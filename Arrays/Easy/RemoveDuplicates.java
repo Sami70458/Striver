@@ -50,3 +50,37 @@ public class RemoveDuplicates {
         return i+1;
     }
 }
+
+
+/*
+Using HashSet)
+
+Time Complexity:
+
+Best Case: O(n)
+
+Average Case: O(n)
+
+Worst Case: O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(n)
+
+(Two Pointer Method – Sorted Array)
+
+Time Complexity:
+
+Best Case: O(n)
+
+Average Case: O(n)
+
+Worst Case: O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(1)
+
+
+*/
+

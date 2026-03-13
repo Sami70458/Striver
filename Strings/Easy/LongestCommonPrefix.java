@@ -29,3 +29,20 @@ public class LongestCommonPrefix {
         return str.toString();
     }
 }
+
+
+/*
+
+Time Complexity:
+
+Best Case: O(1) – last digit is already odd.
+
+Worst Case: O(n) – all digits are even except maybe the first.
+
+Average Case: O(n) – on average, we scan about half the string.
+
+Space Complexity:
+
+Auxiliary Space: O(n) – because ans stores a substring of the original string.
+
+*/

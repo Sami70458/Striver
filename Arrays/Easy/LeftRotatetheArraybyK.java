@@ -53,3 +53,6 @@ public class LeftRotatetheArraybyK {
         }
     }
 }
+
+//// O(n) && O(1)
+

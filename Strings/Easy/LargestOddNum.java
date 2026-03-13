@@ -24,3 +24,20 @@ public class LargestOddNum {
         System.out.println(ans);
     }
 }
+
+/*
+
+Time Complexity:
+
+Best Case: O(1) (if the last digit is odd)
+
+Worst Case: O(n) (if we have to scan all digits)
+
+Average Case: O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(n) (for the substring storage in ans)
+
+    */
+

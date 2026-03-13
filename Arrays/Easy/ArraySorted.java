@@ -27,6 +27,10 @@ public class ArraySorted {
             }
         }
 
+
+        // O(n) && O(1)
+
         return ans;
     }
 }
+

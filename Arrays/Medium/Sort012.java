@@ -33,3 +33,20 @@ public class Sort012 {
          arr[b] = temp;
     }
 }
+
+/*
+
+Time Complexity:
+
+Best Case: O(n)
+
+Average Case: O(n)
+
+Worst Case: O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(1) (in-place sorting, only uses a few pointers and temp variable)
+
+*/
+

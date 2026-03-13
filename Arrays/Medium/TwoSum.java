@@ -26,3 +26,27 @@ public class TwoSum {
         System.out.println(Arrays.toString(ans));
     }
 }
+
+
+/*
+
+Time Complexity:
+
+Best Case: O(n)
+
+Average Case: O(n)
+
+Worst Case: O(n)
+
+Reason:
+
+Building the HashMap → O(n)
+
+Iterating and checking → O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(n) (for the HashMap)
+
+*/
+

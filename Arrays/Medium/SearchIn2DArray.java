@@ -38,3 +38,22 @@ public class SearchIn2DArray {
         
     }
 }
+
+
+/*
+
+Time Complexity:
+
+Best Case: O(1) (if the target is found at the first check)
+
+Average Case: O(log(n × m))
+
+Worst Case: O(log(n × m))
+
+(n = number of rows, m = number of columns)
+
+Space Complexity:
+
+Auxiliary Space: O(1)
+
+*/

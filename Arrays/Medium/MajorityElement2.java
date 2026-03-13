@@ -28,3 +28,25 @@ public class MajorityElement2 {
         }
     }
 }
+
+
+
+/* 
+
+Time Complexity:
+
+Best Case: O(n²)
+
+Average Case: O(n²)
+
+Worst Case: O(n²)
+
+Reason:
+The .contains() check on ArrayList inside the loop runs O(n) in the worst case, making the overall complexity O(n²).
+
+Space Complexity:
+
+Auxiliary Space: O(n) (for the HashMap + ArrayList)
+
+    */
+

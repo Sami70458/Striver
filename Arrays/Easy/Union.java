@@ -52,4 +52,23 @@ public class Union {
             System.out.print(union.get(k) + " ");
         }
     }
+
 }
+
+
+/*
+Time Complexity:
+
+Best Case: O(n + m)
+
+Average Case: O(n + m)
+
+Worst Case: O(n + m)
+
+(n = size of arr1, m = size of arr2)
+
+Space Complexity:
+
+Auxiliary Space: O(n + m)
+
+*/

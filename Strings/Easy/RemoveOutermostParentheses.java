@@ -26,3 +26,20 @@ public class RemoveOutermostParentheses {
         System.out.println(ans.toString());
     }
 }
+
+/*
+Time Complexity:
+
+Best Case: O(n)
+
+Worst Case: O(n)
+
+Average Case: O(n)
+
+Reason: Each character in the string is visited exactly once.
+
+Space Complexity:
+
+Auxiliary Space: O(n) – for the StringBuilder storing the result.
+    */
+

@@ -77,3 +77,39 @@ public class SetMatrixZeroes {
         }
     }
 }
+
+/*
+
+Time and Space Complexity
+1️⃣ matrixZero() (Brute Force Approach using -1 markers)
+
+Time Complexity: O((m × n) × (m + n))
+
+For each 0 found, you scan its entire row and column → O(m + n) per zero.
+
+In the worst case, if all elements are 0, this becomes O((m × n) × (m + n)).
+
+Space Complexity: O(1) auxiliary space (in-place, only uses -1 as marker).
+
+2️⃣ setZero() (Optimal Approach using boolean arrays)
+
+Time Complexity: O(m × n)
+
+First pass: mark rows and columns → O(m × n)
+
+Second pass: set zeros → O(m × n)
+
+Space Complexity: O(m + n)
+
+Boolean arrays for rows and columns.
+
+✅ Key Idea:
+
+matrixZero() is simpler but can be very slow for large matrices.
+
+setZero() is much more efficient in time, at the cost of extra O(m + n) space.
+
+If needed, there’s also a truly O(1) space solution using the first row and column as markers.
+
+*/
+

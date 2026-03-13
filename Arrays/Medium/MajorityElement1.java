@@ -25,3 +25,19 @@ public class MajorityElement1 {
 
     }
 }
+
+
+/*
+Time Complexity:
+
+Best Case: O(n)
+
+Average Case: O(n)
+
+Worst Case: O(n)
+
+Space Complexity:
+
+Auxiliary Space: O(n) (for the HashMap)
+*/
+

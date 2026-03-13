@@ -21,3 +21,6 @@ public class LeftRotatetheArraybyOne {
         arr[arr.length-1] = temp;
     }
 }
+
+
+//// O(n) && O(1)
